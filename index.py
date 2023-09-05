@@ -22,7 +22,8 @@ def welcome(update, context) -> None:
     https://t.me/moviesnewzone
     https://t.me/moviesnewzone
     https://t.me/moviesnewzone
-    https://t.me/moviesnewzone")
+    https://t.me/moviesnewzone 
+    KEEP SUPPORTING ")
 
 def find_movie(update, context):
     search_results = update.message.reply_text("Processing...")
