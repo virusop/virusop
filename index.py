@@ -17,7 +17,7 @@ def welcome(update, context) -> None:
     update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome to Crazy Movies.\n"
                               f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it.")
     update.message.reply_text("👇 JOIN OUR  👇")
-    update.message.reply_text(" MOVIES CHANNEL  https://t.me/moviesnewzone         https://t.me/moviesnewzone KEEP SUPPORTING.")
+    update.message.reply_text(" MOVIES CHANNEL             https://t.me/moviesnewzone         https://t.me/moviesnewzone KEEP SUPPORTING.")
 
 def find_movie(update, context):
     search_results = update.message.reply_text("Processing...")
