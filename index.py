@@ -19,7 +19,6 @@ def welcome(update, context) -> None:
     update.message.reply_text("👇 Enter Movie Name 👇")
     update.message.reply_text("👇 Join Our Telegram Channel 👇
     https://t.me/moviesnewzone
-    
     https://t.me/moviesnewzone
     https://t.me/moviesnewzone
     Keep Support")
