@@ -18,12 +18,11 @@ def welcome(update, context) -> None:
                               f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it.")
     update.message.reply_text("👇 Enter Movie Name 👇")
     update.message.reply_text("👇 Join Our Telegram Channel 👇
-    
     https://t.me/moviesnewzone
     https://t.me/moviesnewzone
     https://t.me/moviesnewzone
     https://t.me/moviesnewzone 
-    KEEP SUPPORTING ")
+    KEEP SUPPORTING. ")
 
 def find_movie(update, context):
     search_results = update.message.reply_text("Processing...")
